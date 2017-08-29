@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据类型：" />
+
+        <CheckBox
+            android:id="@+id/cb_db"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="slqc(含照片)"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cb_excel"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="excel"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="包含照片：" />
+
+        <CheckBox
+            android:id="@+id/cb_photo"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="目标设备：" />
+
+        <EditText
+            android:id="@+id/et_server"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:singleLine="true"
+            android:inputType="none"
+            android:enabled="false"></EditText>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="搜索"
+            android:textSize="14dp"
+            android:background="@drawable/xml_btn_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/pb_upload"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:id="@+id/tv_upload"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="正在上传：0%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:background="#ffd0d0d0">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="上传"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:background="@drawable/my_btn_1" />
+    </LinearLayout>
+
+</LinearLayout>

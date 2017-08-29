@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_path"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"></TextView>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/gv_list"></GridView>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_up"
+            android:text="后退"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:textSize="18sp"
+            android:background="@drawable/my_btn_1"></Button>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:text="取消"
+            android:id="@+id/btn_cancel"
+            android:textSize="18sp"
+            android:background="@drawable/my_btn_1"></Button>
+    </LinearLayout>
+
+</LinearLayout>

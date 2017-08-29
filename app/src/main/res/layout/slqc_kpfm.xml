@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d0d0d0">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="卡片封面"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:background="@drawable/xml_btn_close" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="总体名称："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ztmc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"></EditText>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="样地号："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ydh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="样地形状："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ydxz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"></EditText>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="样地面积(公顷)："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ydmj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="地理纵坐标："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_dlzzb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"></EditText>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="地理横坐标："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_dlhzb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="样地间距："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ydjj"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"></EditText>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="地形图图幅号："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_dxttfh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="地方行政编码："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_dfxzbm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:maxLength="6" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="林业行政编码："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_lyxzbm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"></EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="卫片号："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_wph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"></EditText>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="市："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_shi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="自然保护区："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_zrbhq"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="县(市、区)："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_xian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"></EditText>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="森林公园："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_slgy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="乡(镇)："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_xiang"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="国有林场："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_gylc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="村："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_cun"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"></EditText>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="集体林场："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_jtlc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="小地名："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_xdm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="林业企业局："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_lyqyj"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="调查员："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_dcy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10" />
+
+                    <Button
+                        android:id="@+id/btn_worker"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_user" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="工作单位："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_dcygzdw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="向导："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_xd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10" />
+
+                    <Button
+                        android:id="@+id/btn_xd"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_user" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="单位及地址："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_xdgzdw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="检查员："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_jcy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="检查员填写" />
+
+                    <Button
+                        android:id="@+id/btn_jcy"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_user" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="工作单位："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_jcygzdw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="检查员填写" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="调查日期："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_dcrq"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="示例：150218"
+                        android:maxLength="6" />
+
+                    <Button
+                        android:id="@+id/btn_dcrq"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_date" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="检查日期："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_jcrq"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="检查员填写"
+                        android:maxLength="6" />
+
+                    <Button
+                        android:id="@+id/btn_jcrq"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_date" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="驻地出发时间："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_zdcfsj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="示例：09:35"
+                        android:maxLength="5" />
+
+                    <Button
+                        android:id="@+id/btn_cfsj"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_time" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="找到样点标桩时间："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_zdydbzsj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="示例：09:35"
+                        android:maxLength="5" />
+
+                    <Button
+                        android:id="@+id/btn_ddsj"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_time" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="GPS型号："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_gps_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:maxLength="32" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="航迹采集距离："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_gps_dis"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="4" />
+
+                    <Button
+                        android:id="@+id/btn_track"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_track" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="航迹采集开始时间："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_gps_begin"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="示例：09:35"
+                        android:maxLength="5" />
+
+                    <Button
+                        android:id="@+id/btn_gps_begin"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_time" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="航迹采集结束时间："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_gps_end"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="示例：09:35"
+                        android:maxLength="5" />
+
+                    <Button
+                        android:id="@+id/btn_gps_end"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_time" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="找到样地途径："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_tujing"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:lines="3"
+                    android:maxLength="256" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="样地照片数量："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ydphoto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:maxLength="2" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="样木照片数量："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ymphoto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:maxLength="2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="调查结束时间："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_dcjssj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="示例：09:35"
+                        android:maxLength="5" />
+
+                    <Button
+                        android:id="@+id/btn_jssj"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_time" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="返回驻地时间："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_fhzdsj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="示例：09:35"
+                        android:maxLength="5" />
+
+                    <Button
+                        android:id="@+id/btn_fhsj"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_time" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0d0d0"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:background="@drawable/my_btn_1" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_list_3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_list_1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="树种："
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/et_sz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"></EditText>
+
+                <Button
+                    android:id="@+id/btn_reset"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/xml_item_close"
+                    android:text="" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:background="#e0e8ff"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="乔灌类型"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_list_1"
+                android:gravity="center">
+
+                <RadioGroup
+                    android:id="@+id/rg_qglx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_qglx_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="全部" />
+
+                    <RadioButton
+                        android:id="@+id/rb_qglx_qm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="乔木" />
+
+                    <RadioButton
+                        android:id="@+id/rb_qglx_gm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="灌木" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:background="#e0e8ff"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="林种类型"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_list_1"
+                android:gravity="center">
+
+                <RadioGroup
+                    android:id="@+id/rg_lzlx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_lzlx_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="全部" />
+
+                    <RadioButton
+                        android:id="@+id/rb_lzlx_fh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="非经济" />
+
+                    <RadioButton
+                        android:id="@+id/rb_lzlx_jj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="经济" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:background="#e0e8ff"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="针阔类型"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_list_1"
+                android:gravity="center">
+
+                <RadioGroup
+                    android:id="@+id/rg_zklx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_zklx_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="全部" />
+
+                    <RadioButton
+                        android:id="@+id/rb_zklx_zy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="针叶" />
+
+                    <RadioButton
+                        android:id="@+id/rb_zklx_ky"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="阔叶" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:background="#e0e8ff"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="木草类型"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_list_1"
+                android:gravity="center"
+                android:visibility="invisible">
+
+                <RadioGroup
+                    android:id="@+id/rg_mclx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_mclx_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="全部" />
+
+                    <RadioButton
+                        android:id="@+id/rb_mclx_mb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="木本" />
+
+                    <RadioButton
+                        android:id="@+id/rb_mclx_cb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="草本" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_list_3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:background="#e0e8ff"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="筛选结果"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/lv_sz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0d0d0"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_tuku"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="图库" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

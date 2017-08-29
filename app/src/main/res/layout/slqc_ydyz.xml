@@ -1,0 +1,2539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d0d0d0">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="样地因子调查记录"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:background="@drawable/xml_btn_close" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#e0e8f0">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="本期"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="前期"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="本期"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="前期"
+            android:textSize="18sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/bg_list_3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="1.样地号："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_ydh"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_ydh"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_ydh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="2.样地类别："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_ydlb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_ydlb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_ydlb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="3.纵坐标(km)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_zzb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_zzb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_zzb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="4.横坐标(km)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_hzb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_hzb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_hzb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="5.GPS纵坐标(m)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_gpszzb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_gpszzb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_gpszzb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="6.GPS横坐标(m)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <EditText
+                            android:id="@+id/et_gpshzb"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:singleLine="true"></EditText>
+
+                        <Button
+                            android:id="@+id/btn_coord"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:text=""
+                            android:background="@drawable/xml_btn_myloc"></Button>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/qq_gpshzb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <Button
+                        android:id="@+id/btn_reset"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_pre"></Button>
+
+                    <CheckBox
+                        android:id="@+id/cb_gpshzb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="gone"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="7.县(局)代码："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_xian"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_xian"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_xian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_dm"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="8.地貌："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_dm"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_dm"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_dm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_hb"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="9.海拔(m)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_hb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="4"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_hb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_hb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_px"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="10.坡向："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_px"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_px"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pw"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="11.坡位："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_pw"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_pw"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_pw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="12.坡度(°)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_pd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="2"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_pd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_pd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_dbxt"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="13.地表形态："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_dbxt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_dbxt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_dbxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_sqgd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="14.沙丘高度(m)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_sqgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:maxLength="4"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_sqgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_sqgd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_fshd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="15.覆沙厚度(cm)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_fshd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="2"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_fshd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_fshd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_qsgmjbl"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="16.侵蚀沟面积比(%)："
+                        android:textSize="14sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_qsgmjbl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_qsgmjbl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_qsgmjbl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_jyll"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="17.基岩裸露(%)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_jyll"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_jyll"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_jyll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_trmc"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="18.土壤名称："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_trmc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_trmc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_trmc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_trzd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="19.土壤质地："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_trzd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_trzd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_trzd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_trlshl"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="20.土壤砾石含量(%)："
+                        android:textSize="14sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_trlshl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_trlshl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_trlshl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_trhd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="21.土壤厚度(cm)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_trhd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_trhd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_trhd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_fzchd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="22.腐殖质厚度(cm)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_fzchd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="2"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_fzchd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_fzchd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_kzlyhd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="23.枯枝落叶厚度(cm)："
+                        android:textSize="14sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_kzlyhd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_kzlyhd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_kzlyhd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_zblx"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="24.植被类型："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_zblx"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_zblx"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_zblx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_gmfgd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="25.灌木覆盖度(%)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_gmfgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_gmfgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_gmfgd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_gmgd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="26.灌木平均高(m)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_gmgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:maxLength="4"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_gmgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_gmgd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cbfgd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="27.草本覆盖度(%)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_cbfgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_cbfgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_cbfgd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cbgd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="28.草本平均高(m)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_cbgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_cbgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_cbgd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_zbzfgd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="29.植被总覆盖度(%)："
+                        android:textSize="14sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_zbzfgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_zbzfgd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_zbzfgd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_dl"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="30.地类："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_dl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_dl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_dl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_tdqs"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="31.土地权属："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_tdqs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_tdqs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_tdqs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/bg_list_3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_lmqs"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="32.林木权属："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_lmqs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_lmqs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_lmqs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_sllb"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="33.森林类别："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_sllb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_sllb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_sllb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_gylsqdj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="34.公益林事权等级："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_gylsqdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_gylsqdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_gylsqdj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_gylbhdj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="35.公益林保护等级："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_gylbhdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_gylbhdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_gylbhdj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_spljydj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="36.商品林经营等级："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_spljydj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_spljydj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_spljydj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_fycs"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="37.抚育措施："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_fycs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_fycs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_fycs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_linzh"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="38.林种："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_linzh"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_linzh"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_linzh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_qy"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="39.起源："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_qy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_qy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_qy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_yssz"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="40.优势树种(组)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <EditText
+                            android:id="@+id/et_yssz"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"></EditText>
+
+                        <Button
+                            android:id="@+id/btn_yssz_reset"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:text=""
+                            android:background="@drawable/xml_btn_close"></Button>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/qq_yssz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_yssz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pjnl"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="41.平均年龄："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_pjnl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_pjnl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_pjnl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_lingz"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="42.龄组："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <Spinner
+                            android:id="@+id/sp_lingz"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"></Spinner>
+
+                        <Button
+                            android:id="@+id/btn_lingz"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:text=""
+                            android:background="@drawable/xml_btn_help"></Button>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/qq_lingz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_lingz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cq"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="43.产期："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_cq"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_cq"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_cq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pjxj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="44.平均胸径(cm)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <EditText
+                            android:id="@+id/et_pjxj"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="numberDecimal"
+                            android:maxLength="4"></EditText>
+
+                        <Button
+                            android:id="@+id/btn_pjxj_reset"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:text=""
+                            android:background="@drawable/xml_btn_close"></Button>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/qq_pjxj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_pjxj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pjsg"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="45.平均树高(m)："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_pjsg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:maxLength="4"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_pjsg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_pjsg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_ybd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="46.郁闭度："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_ybd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:hint="0.00 ~ 1.00"
+                        android:maxLength="4"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_ybd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_ybd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_slqljg"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="47.森林群落结构："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <Spinner
+                            android:id="@+id/sp_slqljg"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"></Spinner>
+
+                        <Button
+                            android:id="@+id/btn_slqljg"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:text=""
+                            android:background="@drawable/xml_btn_help"></Button>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/qq_slqljg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_slqljg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_lcjg"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="48.林层结构："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_lcjg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_lcjg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_lcjg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_szjg"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="49.树种结构："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_szjg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_szjg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_szjg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_zrd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="50.自然度："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_zrd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_zrd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_zrd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_kjd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="51.可及度："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_kjd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_kjd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_kjd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_slzhlx"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="52.森林灾害类型："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_slzhlx"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_slzhlx"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_slzhlx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_slzhdj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="53.森林灾害等级："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_slzhdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_slzhdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_slzhdj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_sljkdj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="54.森林健康等级："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_sljkdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_sljkdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_sljkdj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_spszs"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="55.四旁树株数："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_spszs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_spszs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_spszs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_zzzs"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="56.杂竹株数："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_zzzs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="3"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_zzzs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_zzzs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_trgxdj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="57.天然更新等级："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_trgxdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_trgxdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_trgxdj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_dlmjdj"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="58.地类面积等级："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_dlmjdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_dlmjdj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_dlmjdj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_dlbhyy"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="59.地类变化原因："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_dlbhyy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_dlbhyy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_dlbhyy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_ywtsdd"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="60.有无特殊对待："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_ywtsdd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <TextView
+                        android:id="@+id/qq_ywtsdd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_ywtsdd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""></CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_dcrq"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="61.调查日期："
+                        android:textSize="16sp"
+                        android:gravity="right"></TextView>
+
+                    <EditText
+                        android:id="@+id/et_dcrq"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="自动关联封面日期"
+                        android:maxLength="6"></EditText>
+
+                    <TextView
+                        android:id="@+id/qq_dcrq"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="#8080ff"></TextView>
+
+                    <CheckBox
+                        android:id="@+id/cb_dcrq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:visibility="invisible"></CheckBox>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0d0d0"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="红色为必填项，蓝色为选填项。"
+            android:layout_weight="1"></TextView>
+
+        <CheckBox
+            android:id="@+id/cb_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="全选"></CheckBox>
+
+        <Button
+            android:id="@+id/btn_copy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="转抄"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="检核"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_yssz"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="优势树种"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:background="@drawable/my_btn_1" />
+    </LinearLayout>
+
+</LinearLayout>

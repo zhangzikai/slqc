@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d0d0d0">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="枯落物调查记录"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:background="@drawable/xml_btn_close" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="样方号"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="厚度(cm)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="样方鲜重(g)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="样方干重(g)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="样品鲜重(g)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="样品干重(g)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/lay_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0d0d0"
+        android:gravity="left">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textSize="16sp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="添加" />
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/btn_qq"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="前期"
+            android:background="@drawable/my_btn_1"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="完成" />
+
+    </LinearLayout>
+
+</LinearLayout>

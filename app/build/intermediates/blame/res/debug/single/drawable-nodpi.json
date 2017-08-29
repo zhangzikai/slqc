@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_del_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_del_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_list_101.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_list_101.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_sz_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_sz_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_pic_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_pic_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_btn_bg_1.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_btn_bg_1.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_help_pressed.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_help_pressed.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_btn_bg_0.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_btn_bg_0.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_right_default.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_right_default.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_draw_move_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_draw_move_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_default_image.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_default_image.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_left_pressed.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_left_pressed.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\pdbz_lingz.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\pdbz_lingz.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\file.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\file.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_list_6.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_list_6.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_item_1.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_item_1.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_sate_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_sate_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_up_default.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_up_default.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_item_10.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_item_10.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_list_4.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_list_4.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\folder.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\folder.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_item_11.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_item_11.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_undo_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_undo_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_14.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_14.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_down_default.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_down_default.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_5.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_5.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_left_default.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_left_default.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_check_box_3.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_check_box_3.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1014.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1014.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\pdbz_slqljg.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\pdbz_slqljg.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_btn_11.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_btn_11.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1017.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1017.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_redo_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_redo_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_satellite_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_satellite_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_go_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_go_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\fwj_500.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\fwj_500.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_save_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_save_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_right_pressed.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_right_pressed.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bd_marker_2.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bd_marker_2.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_draw_move_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_draw_move_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_track.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_track.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_list_1.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_list_1.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_list_5.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_list_5.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_btn_2.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_btn_2.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_item_0.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_item_0.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_close_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_close_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_11.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_11.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_loc.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_loc.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_search_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_search_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_2.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_2.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_save_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_save_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_takephoto_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_takephoto_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_user_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_user_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_zoomin_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_zoomin_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1012.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1012.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_cur.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_cur.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1013.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1013.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_12.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_12.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_zoomout_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_zoomout_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_status_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_status_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_draw_eraser_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_draw_eraser_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_status_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_status_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_3.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_3.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_btn_10.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_btn_10.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_dest.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_dest.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_zoomin_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_zoomin_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bd_marker_1.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bd_marker_1.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_help_default.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_help_default.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_down_pressed.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_down_pressed.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_13.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_13.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_search_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_search_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_user_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_user_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_10.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_10.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_btn_1.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_btn_1.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_list_3.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_list_3.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bg_list_2.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\bg_list_2.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\btn_move_up_pressed.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\btn_move_up_pressed.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_go_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_go_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1010.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1010.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1015.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1015.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_redo_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_redo_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_15.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_15.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_yd_4.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_yd_4.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1016.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1016.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_bg_scale.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_bg_scale.9.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_takephoto_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_takephoto_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_check_box_2.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_check_box_2.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_del_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_del_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_close_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_close_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_sate_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_sate_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_zoomout_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_zoomout_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\launcher.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\launcher.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_undo_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_undo_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_status_2.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_status_2.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_pic_0.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_pic_0.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_1009.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_1009.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_draw_eraser_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_draw_eraser_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\fwj_300.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\fwj_300.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_sz_1.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_sz_1.png"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_btn_0.9.png",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\drawable-nodpi\\ic_btn_0.9.png"
+    }
+]

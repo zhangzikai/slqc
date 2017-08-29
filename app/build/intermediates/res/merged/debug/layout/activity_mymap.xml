@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d0d0d0">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="地图"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_ydh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="当前样地：12345"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_change"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:text="切换"
+            android:background="@drawable/xml_btn_3" />
+
+        <Button
+            android:id="@+id/btn_into"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="25dp"
+            android:text="录入"
+            android:background="@drawable/xml_btn_3" />
+
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:background="@drawable/xml_btn_menu" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lay_myview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/map_btn_tobd"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="百度地图"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_tobd" />
+
+            <Button
+                android:id="@+id/map_btn_allmap"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="全图显示"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_allmap" />
+
+            <Button
+                android:id="@+id/map_btn_track"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="航迹管理"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_track" />
+
+            <Button
+                android:id="@+id/map_btn_compass"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="罗盘星历"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_compass" />
+
+            <Button
+                android:id="@+id/map_btn_ydloc"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="样地定位"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_ydloc" />
+
+            <Button
+                android:id="@+id/map_btn_ydloc2"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="引点定位"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_ydloc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp">
+
+            <ToggleButton
+                android:id="@+id/map_btn_trk"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:text=""
+                android:textOff="航迹开关"
+                android:textOn="航迹开关"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_gps" />
+
+            <Button
+                android:id="@+id/map_btn_myloc"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="我的位置"
+                android:textSize="12dp"
+                android:textColor="#4060e0"
+                android:background="@drawable/xml_btn_myloc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/map_btn_zoomout"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text=""
+                android:background="@drawable/xml_btn_zoomout" />
+
+            <Button
+                android:id="@+id/map_btn_zoomin"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:text=""
+                android:background="@drawable/xml_btn_zoomin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="50dp">
+
+            <TextView
+                android:id="@+id/map_tv_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="#ff000000"
+                android:lines="1"
+                android:background="@drawable/ic_bg_scale" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/map_tv_loc"
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:text="正在定位..."
+                android:textSize="18sp"
+                android:textColor="#ff000000"
+                android:lines="1" />
+
+            <TextView
+                android:id="@+id/map_tv_dis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text=""
+                android:textColor="#ff000000"
+                android:lines="1" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

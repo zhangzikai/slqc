@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d0d0d0">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="样地周界测量记录"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:background="@drawable/xml_btn_close" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="测站"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="方位角(°)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="倾斜角(°)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="斜距(m)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="水平距(m)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="累计(m)"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffe0e0e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/lay_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/lay_qq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#d0d0d0"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="前期数据"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全选" />
+
+            <Button
+                android:id="@+id/btn_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="转抄"
+                android:background="@drawable/xml_btn_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_qq_wu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无前期数据"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:background="#ffe0e0e0"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="测站"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#ffe0e0e0"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="方位角(°)"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#ffe0e0e0"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="倾斜角(°)"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#ffe0e0e0"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="斜距(m)"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#ffe0e0e0"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="水平距(m)"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#ffe0e0e0"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="累计(m)"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#ffe0e0e0"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/lay_qq_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0d0d0"
+        android:gravity="center_vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp">
+
+            <RadioButton
+                android:id="@+id/rb_fuce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="复测" />
+
+            <RadioButton
+                android:id="@+id/rb_ceshe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="新设" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="绝对闭合差："
+                    android:textSize="18sp"
+                    android:gravity="right"
+                    android:layout_marginLeft="10dp" />
+
+                <EditText
+                    android:id="@+id/et_juedui"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_xdbhc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="闭合差(cm)："
+                    android:textSize="18sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_xiangdui"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_xdzcwc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="周长误差(cm)："
+                    android:textSize="18sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_zhouchang"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="添加" />
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/btn_qq"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="前期"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="完成" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

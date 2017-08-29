@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d0d0d0">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="样木位置示意图"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="样木号："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"></EditText>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:background="@drawable/xml_btn_search" />
+
+        <TextView
+            android:id="@+id/tv_tj"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="样木总数：247，已检尺：117，剩余：130"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:background="@drawable/xml_btn_close" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/bg_list_3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:background="#d0d0f0"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="样木信息"
+                    android:textSize="20sp"></TextView>
+
+                <Button
+                    android:id="@+id/ymgl_btn_take"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:text=""
+                    android:background="@drawable/xml_btn_take" />
+
+                <Button
+                    android:id="@+id/ymgl_btn_ok"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="3dp"
+                    android:text=""
+                    android:background="@drawable/xml_btn_save" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="参考点："
+                                android:textSize="18sp"></TextView>
+
+                            <Spinner
+                                android:id="@+id/ymgl_sp_ckd"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"></Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="样木类型："
+                                android:textSize="18sp"></TextView>
+
+                            <Spinner
+                                android:id="@+id/ymgl_sp_ymlx"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"></Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="样木号："
+                                android:textSize="18sp"></TextView>
+
+                            <EditText
+                                android:id="@+id/ymgl_et_ymh"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:singleLine="true"
+                                android:inputType="number"
+                                android:maxLength="3"></EditText>
+
+                            <Button
+                                android:id="@+id/btn_ymsearch"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:background="@drawable/xml_btn_search"
+                                android:text=""
+                                android:visibility="gone"></Button>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="立木类型："
+                                android:textSize="18sp"></TextView>
+
+                            <Spinner
+                                android:id="@+id/ymgl_sp_lmlx"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"></Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="检尺类型："
+                                android:textSize="18sp"></TextView>
+
+                            <Spinner
+                                android:id="@+id/ymgl_sp_cjlx"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"></Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="树种名称："
+                                android:textSize="18sp"></TextView>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical">
+
+                                <EditText
+                                    android:id="@+id/ymgl_et_szmc"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:ems="10"></EditText>
+
+                                <Button
+                                    android:id="@+id/ymgl_btn_szmc"
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:background="@drawable/xml_btn_sz"
+                                    android:text=""></Button>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="前期胸径(cm)："
+                                android:textSize="18sp"></TextView>
+
+                            <EditText
+                                android:id="@+id/ymgl_et_qqxj"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="numberDecimal"></EditText>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/ymgl_tv_bqxj"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="本期胸径(cm)："
+                                android:textSize="18sp"></TextView>
+
+                            <EditText
+                                android:id="@+id/ymgl_et_bqxj"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="numberDecimal"
+                                android:maxLength="5"></EditText>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="采伐管理类型："
+                                android:textSize="18sp"></TextView>
+
+                            <Spinner
+                                android:id="@+id/ymgl_sp_cfgllx"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"></Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="林层："
+                                android:textSize="18sp"></TextView>
+
+                            <Spinner
+                                android:id="@+id/ymgl_sp_lc"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"></Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="跨角地类序号："
+                                android:textSize="18sp"></TextView>
+
+                            <Spinner
+                                android:id="@+id/ymgl_sp_kjdlxh"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"></Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="方位角(°)："
+                                android:textSize="18sp"></TextView>
+
+                            <EditText
+                                android:id="@+id/ymgl_et_fwj"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="numberDecimal"
+                                android:maxLength="5"></EditText>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="水平距(m)："
+                                android:textSize="18sp"></TextView>
+
+                            <EditText
+                                android:id="@+id/ymgl_et_spj"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="numberDecimal"
+                                android:maxLength="4"></EditText>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="备注："
+                                android:textSize="18sp"></TextView>
+
+                            <EditText
+                                android:id="@+id/ymgl_et_beizhu"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:maxLength="32"></EditText>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/bg_list_2">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right"
+                                    android:text="倾斜角："
+                                    android:textSize="18sp"></TextView>
+
+                                <EditText
+                                    android:id="@+id/ymgl_et_qxj"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:ems="10"
+                                    android:inputType="numberDecimal"
+                                    android:maxLength="5"></EditText>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right"
+                                    android:text="斜距："
+                                    android:textSize="18sp"></TextView>
+
+                                <EditText
+                                    android:id="@+id/ymgl_et_xj"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:ems="10"
+                                    android:inputType="numberDecimal"
+                                    android:maxLength="5"></EditText>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <!--
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginRight="100dp"
+                            android:gravity="center" >
+                            <Button
+                                android:id="@+id/ymgl_btn_take"
+                                android:layout_width="120dp"
+                                android:layout_height="48dp"
+                                android:layout_marginRight="2dp"
+                                android:text="拍照"
+                                android:background="@drawable/xml_btn_2" />
+                            <Button
+                                android:id="@+id/ymgl_btn_ok"
+                                android:layout_width="120dp"
+                                android:layout_height="48dp"
+                                android:layout_marginLeft="2dp"
+                                android:text="保存"
+                                android:background="@drawable/xml_btn_2" />
+                        </LinearLayout>
+                        -->
+                    </LinearLayout>
+                </ScrollView>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_list_4">
+
+                    <ListView
+                        android:id="@+id/lv_ymh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></ListView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_list_3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="#d0d0f0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="样木位置图"
+                    android:textSize="20sp"></TextView>
+                <!--
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:gravity="center" >
+                    <Button
+                        android:id="@+id/btn_zoomall"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_allmap" />
+                    <Button
+                        android:id="@+id/btn_zoomin"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="3dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_zoomin" />
+                    <Button
+                        android:id="@+id/btn_zoomout"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="3dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_zoomout" />
+                </LinearLayout>
+                -->
+                <RadioGroup
+                    android:id="@+id/yangmutu_rg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio0"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:gravity="center"
+                        android:checked="true"
+                        android:button="@null"
+                        android:background="@drawable/xml_btn_move" />
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:button="@null"
+                        android:background="@drawable/xml_btn_pen" />
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center"
+                        android:button="@null"
+                        android:background="@drawable/xml_btn_eraser" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/yangmutu_btn_revoke"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/xml_btn_pre" />
+
+                <Button
+                    android:id="@+id/yangmutu_btn_restore"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/xml_btn_next" />
+
+                <Button
+                    android:id="@+id/yangmutu_btn_delpic"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/xml_btn_delpic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/yangmutu_lay_view"
+                android:layout_width="600dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_list_3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#d0d0f0"
+                android:paddingLeft="10dp"
+                android:text="固定标志说明"
+                android:textSize="20sp"
+                android:gravity="center_vertical"></TextView>
+
+            <EditText
+                android:id="@+id/yangmutu_et_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="5"
+                android:maxLines="5"
+                android:maxLength="256"></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_zoomall"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:text=""
+                    android:background="@drawable/xml_btn_allmap" />
+
+                <Button
+                    android:id="@+id/btn_zoomin"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="3dp"
+                    android:text=""
+                    android:background="@drawable/xml_btn_zoomin" />
+
+                <Button
+                    android:id="@+id/btn_zoomout"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="3dp"
+                    android:text=""
+                    android:background="@drawable/xml_btn_zoomout" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:id="@+id/yangmutu_btn_move_up"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/xml_btn_move_up" />
+
+                <Button
+                    android:id="@+id/yangmutu_btn_move_down"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/xml_btn_move_down" />
+
+                <Button
+                    android:id="@+id/yangmutu_btn_move_left"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/xml_btn_move_left" />
+
+                <Button
+                    android:id="@+id/yangmutu_btn_move_right"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/xml_btn_move_right" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#d0d0d0"
+        android:gravity="right">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_check"
+                android:layout_width="100dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:checked="true"
+                android:button="@null"
+                android:text="选择"
+                android:background="@drawable/my_btn_1" />
+
+            <RadioButton
+                android:id="@+id/rb_add"
+                android:layout_width="100dp"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:button="@null"
+                android:text="添加"
+                android:background="@drawable/my_btn_1" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/yangmutu_btn_delete"
+            android:layout_width="100dp"
+            android:layout_height="51dp"
+            android:background="@drawable/my_btn_1"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/yangmutu_btn_mmjcjl"
+            android:layout_width="100dp"
+            android:layout_height="51dp"
+            android:background="@drawable/my_btn_1"
+            android:text="样木" />
+
+        <Button
+            android:id="@+id/yangmutu_btn_tuku"
+            android:layout_width="100dp"
+            android:layout_height="51dp"
+            android:background="@drawable/my_btn_1"
+            android:text="图库" />
+
+        <Button
+            android:id="@+id/yangmutu_btn_finish"
+            android:layout_width="100dp"
+            android:layout_height="51dp"
+            android:background="@drawable/my_btn_1"
+            android:text="完成" />
+    </LinearLayout>
+
+
+</LinearLayout>

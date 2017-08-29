@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_wclzld.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_wclzld.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_slzh_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_slzh_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_datepicker.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_datepicker.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_kjlsgcl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_kjlsgcl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_datacombine_server.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_datacombine_server.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_workeradd.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_workeradd.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_xmdc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_xmdc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_sgcl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_sgcl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_sgcl_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_sgcl_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_mutilupload_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_mutilupload_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_params.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_params.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_szxz.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_szxz.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_klw_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_klw_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_yssz.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_yssz.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_dww.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_dww.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_klwdc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_klwdc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_trgx.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_trgx.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_ym.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_ym.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_mmjc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_mmjc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_sgcl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_sgcl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_yindianwzt_input.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_yindianwzt_input.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_zjcl_xc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_zjcl_xc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_ydyz.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_ydyz.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_zjcltype.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_zjcltype.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_mutilexport.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_mutilexport.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_list.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_list.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mymap.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_mymap.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_xm.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_xm.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_trgx.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_trgx.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_zb_item2.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_zb_item2.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_yxcl_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_yxcl_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_trdc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_trdc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tuku_pic.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_tuku_pic.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tuku_list.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_tuku_list.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_kpfm.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_kpfm.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_zjcl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_zjcl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_klw.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_klw.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_datacombine_client.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_datacombine_client.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_kjl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_kjl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_ymwzt.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_ymwzt.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_yangdiwzt.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_yangdiwzt.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_color.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_color.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dww_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dww_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_track.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_track.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_kjl_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_kjl_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_zjcl_fc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_zjcl_fc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_newname.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_newname.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_sgcl_chooseym_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_sgcl_chooseym_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_wclzld_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_wclzld_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_trdc_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_trdc_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_input.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_input.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_datacheck.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_datacheck.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_wclzld.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_wclzld.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_zbdc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_zbdc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_newfolder.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_newfolder.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_xm_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_xm_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_makesure.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_makesure.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_workercheck.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_workercheck.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_zb_item_gm.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_zb_item_gm.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_filesave.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_filesave.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_yssz_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_yssz_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_fileopen.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_fileopen.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bdmap.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_bdmap.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_yxcl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_yxcl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_slzh.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_slzh.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_menu_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\lay_menu_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_ydbh.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_ydbh.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_slzh.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_slzh.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_mmjc_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_mmjc_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_dataexport.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_dataexport.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_pcsearch_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_pcsearch_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_kjl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_kjl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_zb_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_zb_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_ydh.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_ydh.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_zb.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_zb.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_compass.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_compass.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_zpmc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_zpmc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_mutilupload.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_mutilupload.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_worker_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_worker_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tuku_list_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\tuku_list_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launcher.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_file_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_file_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_zjcl_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_zjcl_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_taskadd.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_taskadd.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_yindianwzt.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_yindianwzt.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_sysset.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_sysset.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_pcsearch.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_pcsearch.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_dataimport.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_dataimport.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\activity_web.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_trgx_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_trgx_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_pdbz.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_pdbz.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_yxcl.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_yxcl.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_cysz_item.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_cysz_item.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_photo.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_photo.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_workermgr.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_workermgr.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_trdc.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_trdc.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_yddc_dataupload.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_yddc_dataupload.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_base_about.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\dlg_base_about.xml"
+    },
+    {
+        "merged": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slqc_dlg_sgcl_chooseym.xml",
+        "source": "F:\\Zj\\AndroidStudioProjects\\SlqcTanhui1\\app\\src\\main\\res\\layout\\slqc_dlg_sgcl_chooseym.xml"
+    }
+]

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/xml_bg_item">
+
+    <TextView
+        android:id="@+id/tv_ymh"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_lmlx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_jclx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_sz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_xj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_cflx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_kjxh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_hzb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_zzb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_1014" />
+
+</LinearLayout>

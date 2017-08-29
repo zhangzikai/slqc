@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="样地号："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ydh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:ems="10" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="跨角地类序号："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_xh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="面积比例："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_mjbl"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="0.00 ~ 0.50" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="地类："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_dl"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="土地权属："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_tdqs"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="林木权属："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_lmqs"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="林种："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_linzh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="起源："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_qy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="优势树种(组)："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_yssz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"></EditText>
+
+                    <Button
+                        android:id="@+id/btn_sz"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/xml_btn_sz"
+                        android:text=""></Button>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="龄组："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center_vertical">
+
+                    <Spinner
+                        android:id="@+id/sp_lingz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <Button
+                        android:id="@+id/btn_lingz"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_help"></Button>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="郁闭度："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_ybd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="0.00 ~ 1.00" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="平均树高(m)："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/et_pjsg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="森林群落结构："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center_vertical">
+
+                    <Spinner
+                        android:id="@+id/sp_slqljg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></Spinner>
+
+                    <Button
+                        android:id="@+id/btn_slqljg"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:text=""
+                        android:background="@drawable/xml_btn_help"></Button>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="树种结构："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_szjg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="商品林经营等级："
+                    android:textSize="16sp"
+                    android:gravity="right" />
+
+                <Spinner
+                    android:id="@+id/sp_spljydj"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0d0d0"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_yssz"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="优势树种"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_sgcl"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="树高测量"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:background="@drawable/my_btn_1" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:background="@drawable/my_btn_1" />
+
+    </LinearLayout>
+
+</LinearLayout>

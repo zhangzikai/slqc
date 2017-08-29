@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_path"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"></TextView>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/gv_list"></GridView>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="保存名称："
+            android:id="@+id/tv_name"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"></TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/et_name"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_up"
+            android:text="后退"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:textSize="18sp"
+            android:background="@drawable/my_btn_1"></Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:text="新建文件夹"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_newfolder"
+            android:textSize="18sp"
+            android:background="@drawable/my_btn_1"></Button>
+
+        <Button
+            android:text="保存"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:id="@+id/btn_save"
+            android:textSize="18sp"
+            android:background="@drawable/my_btn_1"></Button>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="取消"
+            android:id="@+id/btn_cancel"
+            android:textSize="18sp"
+            android:background="@drawable/my_btn_1"></Button>
+    </LinearLayout>
+
+</LinearLayout>

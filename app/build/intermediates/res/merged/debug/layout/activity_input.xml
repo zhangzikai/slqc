@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#d0d0d0">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="数据录入"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_ydh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:text="当前样地：10245" />
+
+        <Button
+            android:id="@+id/btn_ydh"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:text="切换"
+            android:background="@drawable/xml_btn_3" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="调查状态：正在调查，未定位" />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:text="检查"
+            android:background="@drawable/xml_btn_3" />
+
+        <Button
+            android:id="@+id/btn_trk"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:text="回采航迹"
+            android:background="@drawable/xml_btn_3" />
+
+        <Button
+            android:id="@+id/btn_take"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="25dp"
+            android:text=""
+            android:background="@drawable/xml_btn_take" />
+
+        <Button
+            android:id="@+id/btn_photo"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:text=""
+            android:background="@drawable/xml_btn_photo" />
+
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="25dp"
+            android:text=""
+            android:background="@drawable/xml_btn_menu" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnCount="4"
+            android:rowCount="4">
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_yddcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="卡片封面"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_yddcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_ydydwzt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="引点特征\n(表一)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_ydydwzt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_ydyxcljl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="样地引线测量\n(表一)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_ydyxcljl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_ydwzt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="样地特征\n(表一)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_ydwzt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_ydzjcljl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="样地周界测量\n(表一)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_ydzjcljl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_ydyzdcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="样地因子调查\n(表二)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_ydyzdcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_kjldcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="跨角林调查\n(表三)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_kjldcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_ymwzt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="样木位置示意图\n(表五)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_ymwzt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_mmjcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="每木检尺\n(表四)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_mmjcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_pjymdcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="树(毛竹)高测量\n记录(表六)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_pjymdcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/main_btn_slzhdcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="森林灾害调查\n(表七)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_slzhdcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_zbdcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="灌木草本调查\n(样方)(表八)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_zbdcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_xmdcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="下木调查\n(样方)(表九)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_xmdcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_trgxdcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="天然更新调查\n(表十)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_trgxdcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_ydbhdcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="复查期内样地\n变化情况调查\n(表十一)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_ydbhdcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/main_btn_wclzlddcjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="未成林造林地\n调查\n(表十二)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_wclzlddcjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_trdc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="土壤调查\n(样方)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_trdc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/main_btn_klwdc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="枯落物调查\n(样方)"
+                    android:textSize="18sp"
+                    android:background="@drawable/my_btn_1" />
+
+                <ImageView
+                    android:id="@+id/main_iv_klwdc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_status_0" />
+            </RelativeLayout>
+        </GridLayout>
+
+        <!--
+        <Button
+            android:id="@+id/btn_trk"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="64dp"
+            android:layout_marginRight="64dp"
+            android:text="回采航迹"
+            android:background="@drawable/xml_btn_2" />
+        -->
+    </RelativeLayout>
+
+</LinearLayout>

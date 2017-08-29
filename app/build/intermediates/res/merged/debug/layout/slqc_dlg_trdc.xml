@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400sp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/tv_dlg_sd"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="深度（cm）：" />
+
+                <Spinner
+                    android:id="@+id/sp_sd"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_rz"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="容重（Mg/m³）：" />
+
+                <EditText
+                    android:id="@+id/et_rz"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_zd"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="质地：" />
+
+                <EditText
+                    android:id="@+id/et_zd"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_yjt"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="有机碳：" />
+
+                <EditText
+                    android:id="@+id/et_yjt"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_yjtmd"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="有机碳密度：" />
+
+                <EditText
+                    android:id="@+id/et_yjtmd"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_tqkxd"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="通气孔隙度（%）：" />
+
+                <EditText
+                    android:id="@+id/et_tqkxd"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_fyzs"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="发芽指数（%）：" />
+
+                <EditText
+                    android:id="@+id/et_fyzs"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_yjz"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="有机质（g/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_yjz"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_sf"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="水分：" />
+
+                <EditText
+                    android:id="@+id/et_sf"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_ph"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="PH：" />
+
+                <EditText
+                    android:id="@+id/et_ph"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_ec"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="EC（mS/cm）：" />
+
+                <EditText
+                    android:id="@+id/et_ec"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_TN"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="全氮（g/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_TN"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_TP"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="全磷（g/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_TP"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_TK"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="全钾（g/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_TK"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_AN"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="水解氮（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_AN"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_AP"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="速磷（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_AP"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_AK"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="速钾（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_AK"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Cl"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="氯（mg/L）：" />
+
+                <EditText
+                    android:id="@+id/et_Cl"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_B"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="有效硼（mg/L）：" />
+
+                <EditText
+                    android:id="@+id/et_B"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Al"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="铝（mg/L）：" />
+
+                <EditText
+                    android:id="@+id/et_Al"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Ca"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="钙（mg/L）：" />
+
+                <EditText
+                    android:id="@+id/et_Ca"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Mg"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="镁（mg/L）：" />
+
+                <EditText
+                    android:id="@+id/et_Mg"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Na"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="钠（mg/L）：" />
+
+                <EditText
+                    android:id="@+id/et_Na"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Fe"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="铁（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Fe"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Mn"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="锰（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Mn"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Zn"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="锌（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Zn"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Cu"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="铜（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Cu"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_S"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="硫（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_S"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Mo"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="钼（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Mo"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_As"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="砷（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_As"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Cd"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="镉（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Cd"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Cr"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="铬（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Cr"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Co"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="钴（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Co"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Pb"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="铅（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Pb"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Hg"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="汞（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Hg"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Ni"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="镍（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Ni"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_Se"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="硒（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Se"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Ag"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="银（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Ag"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_V"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="矾（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_V"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_C6_9"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="C6_9（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_C6_9"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_C10_14"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="C10_14（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_C10_14"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_C15_28"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="C15_28（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_C15_28"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_C29_36"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="C29_36（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_C29_36"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_Ben"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="苯（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_Ben"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_JiaBen"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="甲苯（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_JiaBen"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_YiBen"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="乙苯（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_YiBen"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dlg_DJ_EJB"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="DJ_EJB（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_DJ_EJB"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/tv_dlg_L_EJB"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="L_EJB（mg/kg）：" />
+
+                <EditText
+                    android:id="@+id/et_L_EJB"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:ems="10"></EditText>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_dlg_ok"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/btn_dlg_cancel"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_btn_1"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

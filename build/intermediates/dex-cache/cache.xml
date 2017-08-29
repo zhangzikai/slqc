@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\libs\android_api_1.1_forsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="610ab8a4952cfec5cc008a697790e21dec7b8d3a">
+        <dex dex="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\transforms\dex\debug\folders\1000\2\android_api_1.1_forsdk_50c680d5bcfeffc022ab153a32ab4c587b8ec91b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73d9906eacd34fbe8f1060bb7d01d32e9758ddd2">
+        <dex dex="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_c796702ecee84dec8a420cdc1159c40fc9f6cf71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\libs\jxl.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="955fa72ef2e3d5a45db59d84802401f75bc973a5">
+        <dex dex="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\transforms\dex\debug\folders\1000\2\jxl_2f513fccdfd3e3ef6cbc22eea494f9cbd932fef8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_92fa0740d06b1a8290f9fce7f071629ae342d9e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\libs\galaxy_mini.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58de9ecfba229dbb2c3eb3f45dbe284ba58100ea">
+        <dex dex="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\transforms\dex\debug\folders\1000\2\galaxy_mini_6e00b15eaa2bd0627e96a1c1140c3138a6a2d347\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Zj\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_2e09306c0e3ca8d32df86c0085827c5932f83488\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="84bd99f78eefd765df5d6184749a80083769360d">
+        <dex dex="F:\Zj\AndroidStudioProjects\SlqcTanhui1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_651dcb2e36da5c6233479010a94c4c31019170c9\classes.dex" />
+    </item>
+
+</items>
